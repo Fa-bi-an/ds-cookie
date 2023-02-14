@@ -1,0 +1,6 @@
+[core]
+    analytics = false
+    remote = data-versioning
+['remote "data-versioning"']
+    url = s3://ds-data-versioning/{{ cookiecutter.project }}
+    profile = ds-data-versioning
